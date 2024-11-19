@@ -53,4 +53,5 @@ const workerConfig = {
   },
 }
 
+
 export { pageConfig, workerConfig }
