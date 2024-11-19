@@ -41,11 +41,6 @@ const workerConfig = {
       timeNow: number,
       reason: string
     ) => {
-      // This callback will be called when there's a status change for any monitor
-      // Write any Typescript code here
-
-      // This will not follow the grace period settings and will be called immediately when the status changes
-      // You need to handle the grace period manually if you want to implement it
     },
     onIncident: async (
       env: any,
@@ -54,11 +49,8 @@ const workerConfig = {
       timeNow: number,
       reason: string
     ) => {
-      // This callback will be called EVERY 1 MINTUE if there's an on-going incident for any monitor
-      // Write any Typescript code here
     },
   },
 }
 
-// Don't forget this, otherwise compilation fails.
 export { pageConfig, workerConfig }
