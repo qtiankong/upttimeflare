@@ -16,13 +16,18 @@ const workerConfig = {
   // passwordProtection: 'username:password',
   // Define all your monitors here
   monitors: [
-{
+    {
       id: 'atiankong',
       name: 'atiankong',
       method: 'GET',
       target: 'https://atiankong.serv00.net/',
-  },
-
+     },
+        {
+      id: 'tiankong2024,
+      name: 'tiankong2024',
+      method: 'GET',
+      target: 'https://tiankong2024.serv00.net/',
+     },
   ],
   notification: {
     // [Optional] apprise API server URL
