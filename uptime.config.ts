@@ -1,5 +1,7 @@
 const pageConfig = {
   title: "CF-WEB Status Page",
+    links: [
+  ],
 }
 
 const workerConfig = {
