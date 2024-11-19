@@ -12,7 +12,7 @@ const workerConfig = {
       id: 'atiankong',
       name: 'atiankong',
       method: 'GET',
-      target: 'https://atiankong.serv00.net/',
+      target: 'https://atiankong.serv00.net',
      },
     {
       id: 'tiankong2024',
