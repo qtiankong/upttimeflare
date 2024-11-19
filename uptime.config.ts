@@ -1,8 +1,5 @@
 const pageConfig = {
   title: "CF-WEB Status Page",
-  links: [
-    { link: 'mailto:me@lyc8503.net', label: 'Email Me', highlight: true },
-  ],
 }
 
 const workerConfig = {
@@ -13,28 +10,28 @@ const workerConfig = {
       name: 'atiankong',
       method: 'GET',
       target: 'https://atiankong.serv00.net',
-      timeout: 600000,
+      timeout: 30000,
      },
     {
       id: 'tiankong2024',
       name: 'tiankong2024',
       method: 'GET',
       target: 'https://tiankong2024.serv00.net',
-      timeout: 600000,
+      timeout: 30000,
      },
     {
       id: 'atk233',
       name: 'atk233',
       method: 'GET',
       target: 'https://atk233.serv00.net',
-      timeout: 600000,
+      timeout: 30000,
      },
         {
       id: 'alecferrell',
       name: 'alecferrell',
       method: 'GET',
       target: 'https://alecferrell.serv00.net',
-      timeout: 600000,
+      timeout: 30000,
      },
   ],
   callbacks: {
