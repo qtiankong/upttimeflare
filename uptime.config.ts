@@ -8,18 +8,6 @@ const workerConfig = {
   kvWriteCooldownMinutes: 3,
   monitors: [
     {
-      id: 'gcp1',
-      name: 'gcp1',
-      method: 'TCP_PING',
-      target: '35.212.191.250:65522',
-     },
-    {
-      id: 'gcp2',
-      name: 'gcp2',
-      method: 'TCP_PING',
-      target: '35.212.157.81:22',
-     },
-    {
       id: 'atiankong',
       name: 'atiankong',
       method: 'GET',
