@@ -20,6 +20,18 @@ const workerConfig = {
       method: 'GET',
       target: 'https://tiankong2024.serv00.net',
      },
+    {
+      id: 'atk233',
+      name: 'atk233',
+      method: 'GET',
+      target: 'https://atk233.serv00.net',
+     },
+        {
+      id: 'alecferrell',
+      name: 'alecferrell',
+      method: 'GET',
+      target: 'https://alecferrell.serv00.net',
+     },
   ],
   callbacks: {
     onStatusChange: async (
